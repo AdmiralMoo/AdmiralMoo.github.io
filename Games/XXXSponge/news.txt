@@ -1,0 +1,67 @@
+Alpha v0.1.0 - 03/04/2021
+	• Added PleasureController.cs
+	• Added GameController.cs
+	• Added UIManager.cs
+	• Implemented pleasure spinner mechanic
+	• Added debug panel
+	• Progress got erased after Unity Hub update
+
+Alpha v0.1.0 - 04/04/2021
+	• Cursor now follows mouse
+	• Added basic UI for pleasure, progress and frustration
+	• Added calculations for distance between target and cursor
+	• Clit target now detects proximity of cursor
+	• Game samples average proximity over time to determine pleasure
+	• Sandy can now cum
+	• Added pleasure multiplier for higher progress levels
+	• Added game over screen
+	• Added music
+
+Alpha v1.0.1 - 05/04/2021
+	• Fixed issue where speeds were different in build than in editor due to V-Sync and time.deltaTime
+
+Alpha v0.2.0 - 05/04/2021
+	• Added splash screen
+	• Added custom cursor
+
+Alpha v0.2.1 - 05/04/2021
+	• Added SpongeBob's Room
+	• Hid cursor
+	• Renamed to XXX Sponge
+	• Added Icon
+	• Tested and Added Discord Rich presence (disabled in build until later versions)
+	• Music now loops
+	• Fixed UI resolution scaling
+	• Changed UI Image
+	• Moved Game UI
+	• Replaced progress bar with new graphics
+	• Added post processing bloom and tonemapping
+
+Alpha v0.2.2 - 05/05/2021
+	• Fixed issue where clit UI would clip into objects if camera moved
+	• Rebuilt psp-optimized geometry with faces removed in spongebob's room
+	• Added model of spongebob's room to the world
+	• Added model of spongebob to the world
+	• Posed spongebob on bed
+	• Remeshed Sandy model to add curves, nipples, vagina and perky tits
+	• Added model of Sandy to the world
+	• Replaced UI_ClitBackground with render texture of camera pointed at Sandy's vagina
+	• Move Game UI anchor to right side of screen to match position of fingering UI
+	• Configured High, Medium and Low graphics presets in editor (not yet accessible to user)
+
+Alpha v0.2.3 - 05/06/2021
+	• Created new and updated intro for M-Tech Games
+	• Created SpongeBob episode intro-like intro for the game
+	• Added script to manage intro video and cutscene playing
+	• Added intro video and company video to game
+	
+Alpha v0.3.0 - 05/07/2021
+	• Version stamp in Debug Panel now automatically updates to the version specified in the program build menu
+	• Spongebob's hand now moves with the cursor
+	• Added cumProgress percentage to the Game Interface
+	• Spongebob's finger now moves down when left mouse button is clicked
+	• Added Main Menu
+	• Added Settings Menu
+	• Changed intro video loader script to use new scene loading system where a scene is specified in the inspector rather than a build index
+	• Changed the room model to a prefab instead of the raw model
+Configured point lighting in the room environment rather than using directional lights
