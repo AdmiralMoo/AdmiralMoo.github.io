@@ -1,0 +1,1 @@
+{"animation":{"version":4,"name":"Cube|CubeAction","duration":10,"nodes":[{"name":"Cube","defaults":{"p":[0,0,0],"r":[-90,0,0],"s":[100,100,100]},"keys":[{"t":0}]}]}}
